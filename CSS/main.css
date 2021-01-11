@@ -1,3 +1,19 @@
+footer {
+  height: 40px;
+  position: sticky;
+  bottom: 0;
+  justify-content: center;
+  background-color: #fffb00;
+}
+footer nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer nav a {
+  color: black;
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -14,18 +30,68 @@ section {
   display: flex;
   align-items: center;
   height: 450px;
+  background-image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png";
 }
 .img-holder img {
   border-radius: 10px;
+  border: 3px solid #fffb00;
+  background-image: url("https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png");
+}
+
+button {
+  padding: 20px;
+  border-radius: 3px;
+  border: none;
+  background-color: #e7e7df;
+  font-size: 15px;
+}
+
+input {
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  max-width: 150px;
+  font-size: 20px;
 }
 
 header {
+  display: flexbox;
+  background-color: #151d66;
+  height: 80px;
+}
+header div {
+  max-width: 50px;
+}
+header div img {
+  max-width: 50px;
+}
+
+nav {
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+nav a {
+  margin: 0 0 0 15px;
+}
+nav div {
+  margin: 5px 0 0 5px;
 }
 
 * {
-  border: 1px solid gray;
-  margin: 3px;
+  margin: 0;
+  padding: 0;
+  border-box: box-sizing;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

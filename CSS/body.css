@@ -1,22 +1,17 @@
-main {
-  display: flex;
-  justify-content: center;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 19 |         border: 3px solid $unacar-gold
+ *    |                           ^^^^^^^^^^^^
+ *    '
+ *   SASS/body.sass 19:27  root stylesheet */
 
-section {
-  display: flex;
-  width: 600px;
-  flex-direction: column;
-  align-items: center;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 19 \2502          border: 3px solid $unacar-gold\a    \2502                            ^^^^^^^^^^^^\a    \2575 \a   SASS/body.sass 19:27  root stylesheet";
 }
-
-.img-holder {
-  display: flex;
-  align-items: center;
-  height: 450px;
-}
-.img-holder img {
-  border-radius: 10px;
-}
-
-/*# sourceMappingURL=body.css.map */

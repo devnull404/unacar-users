@@ -14,6 +14,13 @@ function next() {
     addPlaceHolder(user);
 };
 
+function matricula() {
+    let url = "https://charal.unacar.mx/fotos/";
+    user = document.getElementById("info").value
+    ext = ".jpg"
+    document.getElementById("user").src = url + user.toString() + ext
+};
+
 
 function addPlaceHolder(user) {
     document.getElementById("info").value = user
