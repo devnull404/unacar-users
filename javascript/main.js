@@ -40,3 +40,10 @@ function checkMat(mat) {
 matri = Math.floor(Math.random()*1000)+200000
 document.getElementById("user").src += (matri).toString() + ".jpg"
 document.getElementById("info").placeholder = matri.toString()
+
+document.body.addEventListener("keyup", function(event) {
+    if(event.key == "ArrowRight") {
+        next()} else if (event.key == "ArrowLeft") {
+                         prev()
+                         }
+})
