@@ -1,6 +1,6 @@
 /* Error: Undefined variable.
  *    ,
- * 19 |         border: 3px solid $unacar-gold
+ * 19 |         border: 3px solid $unacar-blue
  *    |                           ^^^^^^^^^^^^
  *    '
  *   SASS/body.sass 19:27  root stylesheet */
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 19 \2502          border: 3px solid $unacar-gold\a    \2502                            ^^^^^^^^^^^^\a    \2575 \a   SASS/body.sass 19:27  root stylesheet";
+  content: "Error: Undefined variable.\a    \2577 \a 19 \2502          border: 3px solid $unacar-blue\a    \2502                            ^^^^^^^^^^^^\a    \2575 \a   SASS/body.sass 19:27  root stylesheet";
 }
