@@ -2,8 +2,9 @@ function prev() {
     let url = "https://charal.unacar.mx/fotos/";
     user = +document.getElementById("user").src.slice(-10, -4) -1;
     ext = ".jpg";
-    user = checkMat(user);
+    user = checkMat(user.toString())
     document.getElementById("user").src = url + user.toString() + ext;
+    user = checkMat(user.toString())
     addPlaceHolder(user);
 };
 
@@ -11,8 +12,9 @@ function next() {
     let url = "https://charal.unacar.mx/fotos/";
     user = +document.getElementById("user").src.slice(-10, -4) +1
     ext = ".jpg"
-    user = checkMat(user);
+    user = checkMat(user.toString())
     document.getElementById("user").src = url + user.toString() + ext
+    user = checkMat(user.toString())
     addPlaceHolder(user);
 };
 
