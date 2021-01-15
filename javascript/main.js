@@ -26,6 +26,6 @@ function addPlaceHolder(user) {
     document.getElementById("info").value = user
 }
 
-matricula = Math.floor(Math.random()*1000)+200000
-document.getElementById("user").src += (matricula).toString() + ".jpg"
-document.getElementById("info").placeholder = matricula.toString()
+matri = Math.floor(Math.random()*1000)+200000
+document.getElementById("user").src += (matri).toString() + ".jpg"
+document.getElementById("info").placeholder = matri.toString()
